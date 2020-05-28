@@ -1,9 +1,39 @@
 ---
 ---
+
 @import "{{ site.theme }}";
+
+#skip-to-content {
+	height: 1px;
+	width: 1px;
+	position: absolute;
+	overflow: hidden;
+	top: -10px;
+}
 
 body .page-header {
 	padding: 1em;
 	background: rgb(236, 184, 71);
 	background-image: none;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	li {
+		display: inline-block;
+		list-style-type: none;
+		margin: 5px;
+		padding: 0;
+		a {
+			font-weight: 700;
+			padding: 4px;
+		}
+	}
+}
+
+.site-footer {
+	font-size: 0.8rem;
+	margin-top: 80px;
 }
