@@ -1,7 +1,7 @@
-{% include navigation.html %}
-
-# Square Candy Design Developer Guidelines
-
+---
+layout: page
+title: Overview
+---
 
 ## Getting Started
 

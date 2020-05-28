@@ -1,0 +1,10 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body .page-header {
+	padding: 1em;
+	background: rgb(236, 184, 71);
+	background-image: none;
+}
