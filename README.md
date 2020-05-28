@@ -1,7 +1,3 @@
----
-title: Overview
----
-
 ## Getting Started
 
 * install the theme or plugin on your WordPress site
