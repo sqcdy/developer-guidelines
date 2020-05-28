@@ -1,4 +1,4 @@
-{% include navigation.md %}
+{% include navigation.html %}
 
 # Square Candy Design Developer Guidelines
 
