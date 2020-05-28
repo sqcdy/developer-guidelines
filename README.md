@@ -1,4 +1,4 @@
-# developer-guidelines
+# Square Candy Design Developer Guidelines
 
 ## Getting Started
 
