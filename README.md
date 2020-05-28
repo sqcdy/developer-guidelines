@@ -1,4 +1,7 @@
+{% include navigation.md %}
+
 # Square Candy Design Developer Guidelines
+
 
 ## Getting Started
 
@@ -21,11 +24,11 @@ Before you commit, make sure `grunt preflight` passes. This will run all of the 
 
 For projects with only one primary developer working on it at a time, new development work can happen directly on the `develop` branch. This is a time-saving shortcut that we can only use while our team is still very small. For any project that has two or more people working on it, please follow the more formal [Branching Guidelines](/branching-guidelines).
 
-##### Semantic Versioning
+## Semantic Versioning
 
 As we assign version numbers to our software, we follow [the Semantic Versioning pattern](http://semver.org/), wherein each version follows a MAJOR.MINOR.PATCH scheme:
 
-* **MAJOR** versions are incremented when breaking changes are introduced, such as functionality being removed or otherwise major changes to the codebase.
+* **MAJOR** versions are incremented when breaking changes are introduced, such as functionality being removed or otherwise major changes to the codebase. As a rule of thumb, major versions should not happen more than once per year. For smaller projects it is possible we may never need to introduce a major version upgrade.
 * **MINOR** versions are incremented when new functionality is added in a backwards-compatible manner.
 * **PATCH** versions are incremented for backwards-compatible bugfixes.
 
