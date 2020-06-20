@@ -7,7 +7,16 @@
 
 ## Making Commits
 
-All commits must follow the [Conventional Commits](https://www.conventionalcommits.org/) standard. The most basic way to use this is to just make sure your bugfix commit messages start with `fix: ` and new features start with `feat: `. Other prefixes such as `chore:`, `docs:` and `style:` can also be used.
+All commits must follow the [Conventional Commits](https://www.conventionalcommits.org/) standard. The most basic way to use this is to just make sure your bugfix commit messages start with `fix:` and new features start with `feat:`. Here is a full list of prefixes:
+
+* `feat:` A new feature
+* `fix:` A bug fix
+* `build:` Changes that affect the build system or external dependencies (grunt, npm, composer). Commits that only change compiled css/js files can also use this prefix.
+* `ci:` Changes to our CI configuration files and scripts ()
+* `docs:` Documentation only changes
+* `perf:` A code change that improves performance
+* `refactor:` A code change that neither fixes a bug nor adds a feature
+* `style:` Changes that do not affect the meaning of the code (white-space, formatting) Note that this refers to *code* style, not *design* or front end appearance. Linting cleanup that does not add any new features can go under a simple `style: cleanup` commit message.
 
 Using Conventional Commits properly will result in a useful automatically generated change log that shows the new features and bugfixes in an organized way, but doesn't become poluted with commit messages from documentation updates, CI changes, cleanup tasks and release info that does not belong in a change log.
 
